@@ -25,3 +25,4 @@ When approving a request, **advantage is given to the recent demands given by pe
 Given the structure of the database, we can easily retrieve this data and determine in which relationship the priorities of a new request are currently in effect.
 Obviously how wide a seemingly simple idea can come to light. After the basic definition of the idea, we quickly met the need for a more detailed definition and perhaps even redefining some of the project components, because this technology has a big difference in detail, both in implementation and in the use of technology.
 
+## More stuff coming soon..
