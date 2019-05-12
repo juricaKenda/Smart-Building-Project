@@ -68,3 +68,12 @@ Upon launching an application, user sees the login screen, where he can enter hi
 It is important to point out that I have designed the application in a way that does not give the user knowledge of which of these two has been mistaken. However, it is about reporting data that should be known to the user, not about the game of hacking. This way of communicating with the user at least to a certain extent reduces the possibility of 'entering' into someone else's accounts.  
 
 ![](/Visuals/Welcome-page.png)  
+
+![](/Visuals/FailedLogin-page.png)   
+ 
+
+If the data entered is correct, the user is presented with a screen that contains information about his status such as the floor on which he is located, the temperature on that floor, his username ... This screen allows users to request a temperature change on their floor, by adjusting the arrows to the number that indicates the current floor temperature.  
+
+In addition, it is also possible to request that the user's floor heating be completely disconnected. The user can also leave a specific message to the administrator or building representative on the foreseen location on the screen. When he's done creating his request, pressing the button will send the request to the database.  
+
+![](/Visuals/Floor-page.png)   
