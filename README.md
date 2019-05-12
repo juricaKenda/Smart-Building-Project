@@ -34,4 +34,5 @@ The next component that an application requires is a **user interface**. The use
 
 This component is a **system of communication** between the user (through the user interface) and the database, and ultimately, the **optimization algorithm** that is the last component in this application model.
 
-
+## Creating the Application
+* posted soon
