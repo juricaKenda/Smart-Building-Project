@@ -59,3 +59,12 @@ The table that binds to this table is an abstraction of one **floor**. Each floo
 Very analogous to the 'user-authority' table, I made a **'user-floor'** table that contains the identification numbers of both of these abstractions.  
 
 The last table in the base is a table of **requests**. It contains an identifier for each request, a user-table identifier, which can give us many data at once, and an additional description of the request. This is one example in which we clearly see why it is efficient to factorize elements in multiple tables.
+
+### User interface
+
+A quality user interface is oriented exclusively to the needs of the user. The interface should be intuitive and easy to use, without any usage instructions. I created a user interface using Java Swing components.  
+
+Upon launching an application, user sees the login screen, where he can enter his username and password, and press the button to let the app know that it is ready to enter data. If a password or username is entered incorrectly, a notification about it will appear on the screen.  
+It is important to point out that I have designed the application in a way that does not give the user knowledge of which of these two has been mistaken. However, it is about reporting data that should be known to the user, not about the game of hacking. This way of communicating with the user at least to a certain extent reduces the possibility of 'entering' into someone else's accounts.  
+
+![](/Visuals/Welcome-page.png)  
