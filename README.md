@@ -77,3 +77,14 @@ If the data entered is correct, the user is presented with a screen that contain
 In addition, it is also possible to request that the user's floor heating be completely disconnected. The user can also leave a specific message to the administrator or building representative on the foreseen location on the screen. When he's done creating his request, pressing the button will send the request to the database.  
 
 ![](/Visuals/Floor-page.png)   
+
+### Control Unit (Communication System)
+
+The communication system is a component that **connects the database and the user interface**. This system **monitors other components** and **governs** their **communication**.  
+This application layer is extremely important because it gives us the ability to strictly **separate users and databases**. In other words, whatever the user is doing in the application, does not affect the database until the this layer allows it, and to the level at which this layer permits.  
+
+Some of the jobs that this unit must be able to do is connect to the database and respond to the user interface. When the application has started, the control unit is connected to the database because it is required to verify the combination of the username and password that the user entered in his application.  
+The control unit is not able to do any other operation until this condition is met because the initiation of these operations is directly dependent on the user interaction with the application on the screen that has not yet been displayed.  
+In case the condition is met, the base unit sends a request to retrieve user information so that they can be displayed on a new screen that has opened (to the user).  
+
+All the **queries sent by the control unit** to the database are **recorded as constants** and are retrieved and modified if needed by adding a user name and similar information. I have decided for such a request access setting because it is very easy to modify the database (when **scaling the application**), **without the straw of the previously written code.**
